@@ -8,6 +8,26 @@
         mc:Ignorable="d"
         Title="Shell" Height="450" Width="600">
     <Grid>
-        <ItemsControl prism:RegionManager.RegionName="MainRegion"></ItemsControl>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <ItemsControl Grid.Column="0" Grid.Row="0"
+            prism:RegionManager.RegionName="RegionNW"></ItemsControl>
+
+        <ItemsControl Grid.Column="1" Grid.Row="0"
+            prism:RegionManager.RegionName="RegionNE"></ItemsControl>
+
+        <ItemsControl Grid.Column="0" Grid.Row="1"
+            prism:RegionManager.RegionName="RegionSW"></ItemsControl>
+
+        <ItemsControl Grid.Column="1" Grid.Row="1"
+            prism:RegionManager.RegionName="RegionSE"></ItemsControl>
+
     </Grid>
 </Window>
