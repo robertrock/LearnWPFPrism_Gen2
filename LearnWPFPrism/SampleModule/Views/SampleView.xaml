@@ -9,6 +9,6 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Label>Hello, this is a sample view(SampleView) from SampleModule - bound to Main region of shell</Label>
+        <TextBlock TextWrapping="Wrap" Text="Hello,123 this is a sample view(SampleView) from SampleModule - bound to Main region of shell"></TextBlock>
     </Grid>
 </UserControl>

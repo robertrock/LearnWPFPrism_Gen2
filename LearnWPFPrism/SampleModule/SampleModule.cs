@@ -15,7 +15,13 @@ namespace SampleModule
         public void Initialize()
         {
             // binding a region to a view
-            _regionManager.RegisterViewWithRegion("MainRegion", typeof(Views.SampleView)); 
+            _regionManager.RegisterViewWithRegion("RegionNW", typeof(Views.SampleView));
+
+            // add new views here
+            //_regionManager.RegisterViewWithRegion("RegionNE", typeof(Views.SampleView));
+            //_regionManager.RegisterViewWithRegion("RegionSW", typeof(Views.SampleView));
+            //_regionManager.RegisterViewWithRegion("RegionSE", typeof(Views.SampleView));
+
         }
     }
 }
