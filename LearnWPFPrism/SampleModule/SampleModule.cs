@@ -18,7 +18,7 @@ namespace SampleModule
             _regionManager.RegisterViewWithRegion("RegionNW", typeof(Views.SampleView));
 
             // add new views here
-            //_regionManager.RegisterViewWithRegion("RegionNE", typeof(Views.SampleView));
+            _regionManager.RegisterViewWithRegion("RegionNE", typeof(Views.SampleView2));
             //_regionManager.RegisterViewWithRegion("RegionSW", typeof(Views.SampleView));
             //_regionManager.RegisterViewWithRegion("RegionSE", typeof(Views.SampleView));
 
