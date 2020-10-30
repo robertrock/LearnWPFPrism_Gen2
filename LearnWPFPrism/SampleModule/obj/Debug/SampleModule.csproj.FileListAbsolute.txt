@@ -53,3 +53,5 @@ D:\Dev\VS2019\MyCode\repo\LearnWPFPrism_Gen2\LearnWPFPrism\SampleModule\obj\Debu
 D:\Dev\VS2019\MyCode\repo\LearnWPFPrism_Gen2\LearnWPFPrism\SampleModule\obj\Debug\SampleModule.csproj.CopyComplete
 D:\Dev\VS2019\MyCode\repo\LearnWPFPrism_Gen2\LearnWPFPrism\SampleModule\obj\Debug\SampleModule.dll
 D:\Dev\VS2019\MyCode\repo\LearnWPFPrism_Gen2\LearnWPFPrism\SampleModule\obj\Debug\SampleModule.pdb
+D:\Dev\VS2019\MyCode\repo\LearnWPFPrism_Gen2\LearnWPFPrism\SampleModule\obj\Debug\Views\SampleView2.g.cs
+D:\Dev\VS2019\MyCode\repo\LearnWPFPrism_Gen2\LearnWPFPrism\SampleModule\obj\Debug\Views\SampleView2.baml
